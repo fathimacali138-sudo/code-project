@@ -1,0 +1,202 @@
+
+header{
+background-color:green;
+padding:10px;
+}
+.pages{
+text-align:center;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 5px 10px;
+}
+.pages a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+padding:5px;
+}
+#logo{
+width: 45px;
+height:30px;
+float:left;
+margin-top: -1px;
+vertical-align: middle;
+}
+                                                                                                                                                                                                      
+#telesom{
+width: 50%;
+height: 19%;
+margin-top:30px;
+border-radius: 8px;
+ 
+
+}
+
+h2{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 15;
+    align-items: flex-start;
+}
+
+#sawir{
+    width: 120px;
+    height: 80px; 
+    float: left;
+
+}
+ main{
+    display: flex;
+    justify-content: space-between;
+ }
+ .section1{
+    width: 20%;
+    float: left;
+    order: 1;
+
+
+      text-align: center;
+  color: green;
+  margin-bottom: 20px;
+  margin-top: -80px;
+}
+
+
+    label {
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+input[type="submit"] {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+  width: 100%;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: darkgreen;
+  transform: scale(1.03);
+}
+
+
+    
+ 
+ .section2{
+    float: left;
+    width: 30%;
+    
+     margin-top: -80px;
+
+
+}
+.section3{
+    width: 30%;
+    float: left;
+    margin-top: -80px;
+    
+}
+h5{
+    color: rgb(221, 5, 145);
+    text-align: center;
+    margin-top: 60px;
+    object-fit: cover;
+   
+}
+
+
+footer{
+  display: flex;
+  background: green;
+  color: white;
+  justify-items: space between;
+
+}
+.fleft{
+  padding: 5px;
+  float: left;
+}
+.fcenter{
+  padding: 5px;
+}
+.fcenter a{
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+#search{
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  margin-left: 10px;
+  width: 150px;
+}
+
+button:hover {
+  background-color: darkgreen;
+
+}
+.slideshow{
+  width:100%;
+  height:95%;
+  display:flex;
+  margin-bottom:10px ;
+}
+
+.slide{
+  width: 100%;
+  height: 95%;
+  display: flex;
+  margin: bottom 20px; 
+
+}
+
+
+.img-box {
+  
+  
+  margin-top: -25px;
+
+}
+
+.img-box img {
+  width: 150px;   
+  height: auto;
+  margin-top: -25px;
+}
+
+.date {
+  
+  
+  left: 8px;
+  background:rgb(225, 6, 6);
+  color: black;
+  padding: 4px 8px;
+  font-size: 15px;
+  border-radius: 9px;
+  margin-top: -25px;
+}
+
